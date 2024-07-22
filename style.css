@@ -1,0 +1,95 @@
+.cha
+{
+    border: 1px transparent ;
+    border-radius: 4px;
+    margin-bottom:20px ;
+}
+.sqr
+{
+    border: 1px transparent;
+    border-radius: 4px;
+    padding: 20px 40px;
+}
+.who
+{
+    border: 1px transparent;
+    border-radius: 4px;
+    padding: 25px 50px;
+    background-color: rgb(166, 194, 245);
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option
+{
+    display: inline;
+    border: 1px solid;
+    padding: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+
+}
+.cha
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: aliceblue;
+    height: 46px;
+    width: 700px;
+}
+.side
+{
+    display: inline;
+    margin-left: 10px;
+}
+.cha1
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: aliceblue;
+    height: 46px;
+    margin-bottom:20px ;
+}
+.cha2
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: aliceblue;
+    height: 46px;
+    margin-bottom:20px ;
+}
+.cha3
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: aliceblue;
+    height: 46px;
+    margin-bottom:20px ;
+}
+.but
+{
+    display: flex;
+    justify-content: center;
+}
+button
+{
+    margin: 10px;
+    border: transparent;
+    border-radius: 3px;
+    height: 25px;
+    width: 85px;
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+button:hover
+{
+    background-color: rgb(77, 165, 254);
+}

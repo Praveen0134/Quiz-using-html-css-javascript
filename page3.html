@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="who">
+    <h1>3. Who is the strongest Avenger ?</h1>
+    <div class="sqr">
+
+        <div class="cha" onclick="corr()">
+            <div class="option">A</div>
+            <div class="side">Thor</div>
+        </div>
+        <div class="cha1" onclick="corre()">
+            <div class="option">B</div>
+            <div class="side">Captain America</div>
+        </div>
+        <div class="cha2" onclick="corree()">
+            <div class="option">C</div>
+            <div class="side">Iron man</div>
+        </div>
+        <div class="cha3" onclick="wrg()">
+            <div class="option">D</div>
+            <div class="side">Hulk</div>
+        </div>
+    </div>
+    <div class="but">
+        <a href="page2.html "><button>Previous</button></a>
+    <a href="page3.html"><button>Retry</button></a>
+    
+    
+</div>
+
+</div>
+
+    <script>
+        var count=0
+
+        function corr()
+        {
+            if(count==0)
+        {
+            let change=document.querySelector(".cha");
+            let cha=document.querySelector("body");
+            cha.style.backgroundColor="green";
+            change.style.backgroundColor="green";
+            
+            count=1;
+        }
+        }
+        function corre()
+        {
+            if(count==0)
+        {
+            let change=document.querySelector(".cha1");
+            change.style.backgroundColor="red";
+            let cha=document.querySelector("body");
+            cha.style.backgroundColor="red";
+            count=1;
+        }
+        }
+        function corree()
+        {
+            if(count==0)
+        {
+            let change=document.querySelector(".cha2");
+            change.style.backgroundColor="red";
+            let cha=document.querySelector("body");
+            cha.style.backgroundColor="red";
+            count=1;
+        }
+        }
+        function wrg()
+        {
+            if(count==0)
+        {
+            let change=document.querySelector(".cha3");
+            change.style.backgroundColor="red";
+            let cha=document.querySelector("body");
+            cha.style.backgroundColor="red";
+            count=1;
+        }
+        }
+    </script>
+</body>
+</html>
